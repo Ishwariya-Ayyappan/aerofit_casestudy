@@ -1,33 +1,88 @@
-# AeroFit Case Study
+# 🏃‍♂️ Aerofit Treadmill Customer Analysis: EDA & Probability with Python
 
-## Overview
-This repository contains the exploratory data analysis (EDA) and insights from the AeroFit treadmill dataset. The goal of this study is to understand customer demographics, purchase patterns, and usage trends to make data-driven business recommendations.
+This project presents a detailed exploratory data analysis (EDA) and probability assessment of Aerofit’s treadmill customers using Python and pandas.  
+We uncover customer profiles, product preferences, and actionable business recommendations to help Aerofit better target its marketing and sales strategies.
 
-## Dataset
-The dataset contains information on 180 customers, including their age, gender, education, marital status, treadmill usage, fitness level, income, and miles walked per week.
+---
 
-## Analysis and Insights
-### 1. Data Exploration
-- The dataset consists of **9 columns** and **180 rows** with **no null values**.
-- There are **three unique treadmill models**: KP281, KP481, and KP781.
-- KP281 is the most frequently purchased treadmill.
-- The majority of customers are **male (57%)** and **partnered (59%)**.
+## 📊 Project Overview
 
-### 2. Customer Segmentation
-- **Young Customers (25-30 years)**: Prefer KP281 and KP481.
-- **Educated Customers**: More likely to purchase high-end models like KP781.
-- **Married vs. Single**: Married customers tend to buy more treadmills, while single individuals prefer affordable models.
+- **Dataset:** 180 customers who purchased a treadmill from Aerofit stores over three months.
+- **Features:** Product type, Age, Gender, Education, Marital Status, Weekly Usage, Fitness, Income, and Expected Weekly Mileage.
+- **Goal:** Profile customers for each treadmill model, analyze key demographic and behavioral factors, and compute marginal and conditional probabilities to guide strategic decisions[5][6][7].
 
-### 3. Key Findings
-- Customers generally use the treadmill **3-4 times a week**.
-- Most users have an annual income between **$40,000-$60,000**.
-- **Outliers detected** in income and miles walked per week.
-- **Correlation observed**: Age and income are positively correlated, while treadmill usage is linked to higher fitness levels.
+---
 
-### 4. Business Recommendations
-- **Introduce more entry-level models**: 78% of sales come from budget-friendly options.
-- **Target young professionals**: Offer discounts and promotions for students and early-career individuals.
-- **Corporate fitness programs**: Provide deals for office wellness programs to attract high-income buyers.
-- **Digital marketing strategy**: Use social media and fitness influencers to expand reach.
-- **Fitness events**: Organize community events to promote treadmills and educate potential customers.
+## 📈 Key Insights
+
+- **Product Preferences:**  
+  - KP281 is the most popular model (44%), followed by KP481 (33%) and KP781 (22%).
+- **Demographics:**  
+  - 58% of buyers are male; 59% are partnered.
+  - Most customers are aged 18–33, with education levels above 13 years.
+- **Usage Patterns:**  
+  - Median weekly usage: 3–4 times; median mileage: 94 miles.
+  - Income and mileage show high variability and outliers.
+- **Customer Segments:**  
+  - KP281: Younger, lower income, moderate fitness.
+  - KP481: Middle income, moderate to high usage.
+  - KP781: Higher income, advanced fitness, predominantly male[7].
+
+---
+
+## 🧮 Probability Analysis
+
+- **Marginal Probabilities:**  
+  - 44% purchased KP281, 33% KP481, 22% KP781.
+  - 58% are male; 42% female.
+  - 59% partnered; 41% single.
+- **Conditional Probabilities:**  
+  - Product preference varies significantly by gender, age, income, and fitness level.
+  - KP781 has a strong male skew and is favored by higher-income, high-fitness customers[5][7].
+
+---
+
+## 📝 Methodology
+
+- **Data Cleaning:** Checked for missing values and duplicates (none found).
+- **Statistical Summary:** Assessed central tendency and dispersion for all numerical features.
+- **Outlier Detection:** Identified outliers in income and weekly mileage.
+- **Univariate & Bivariate Analysis:** Visualized distributions and relationships by product, gender, marital status, and other features.
+- **Probability Computation:** Calculated marginal and conditional probabilities to inform marketing strategy[5][6][7].
+
+---
+
+## 📂 Data Dictionary
+
+| Column         | Description                                        |
+|----------------|----------------------------------------------------|
+| Product        | Treadmill model (KP281, KP481, KP781)              |
+| Age            | Age of customer (years)                            |
+| Gender         | Male/Female                                        |
+| Education      | Years of education                                 |
+| MaritalStatus  | Single/Partnered                                   |
+| Usage          | Planned weekly usage (times per week)              |
+| Fitness        | Self-rated fitness (1–5 scale)                     |
+| Income         | Annual income (USD)                                |
+| Miles          | Expected weekly mileage (miles)                    |
+
+---
+
+## 💡 Recommendations
+
+- **Targeted Marketing:**  
+  - Promote KP781 to female customers to address gender imbalance.
+  - Highlight affordable payment plans for KP281/KP481 to attract budget-conscious buyers.
+- **Product Positioning:**  
+  - KP281: Young adults, entry-level fitness.
+  - KP481: Middle-income, regular users.
+  - KP781: High-income, advanced fitness, currently male-dominated.
+- **App Integration:**  
+  - Offer app-based progress tracking and personalized workout plans.
+- **Customer Profiling:**  
+  - Use demographic insights to personalize recommendations and campaigns[7].
+
+---
+
+> **Data-driven profiling empowers smarter product recommendations and targeted growth.**
 
