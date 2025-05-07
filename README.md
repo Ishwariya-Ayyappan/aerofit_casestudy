@@ -9,7 +9,7 @@ We uncover customer profiles, product preferences, and actionable business recom
 
 - **Dataset:** 180 customers who purchased a treadmill from Aerofit stores over three months.
 - **Features:** Product type, Age, Gender, Education, Marital Status, Weekly Usage, Fitness, Income, and Expected Weekly Mileage.
-- **Goal:** Profile customers for each treadmill model, analyze key demographic and behavioral factors, and compute marginal and conditional probabilities to guide strategic decisions[5][6][7].
+- **Goal:** Profile customers for each treadmill model, analyze key demographic and behavioral factors, and compute marginal and conditional probabilities to guide strategic decisions.
 
 ---
 
@@ -26,7 +26,7 @@ We uncover customer profiles, product preferences, and actionable business recom
 - **Customer Segments:**  
   - KP281: Younger, lower income, moderate fitness.
   - KP481: Middle income, moderate to high usage.
-  - KP781: Higher income, advanced fitness, predominantly male[7].
+  - KP781: Higher income, advanced fitness, predominantly male.
 
 ---
 
@@ -38,7 +38,7 @@ We uncover customer profiles, product preferences, and actionable business recom
   - 59% partnered; 41% single.
 - **Conditional Probabilities:**  
   - Product preference varies significantly by gender, age, income, and fitness level.
-  - KP781 has a strong male skew and is favored by higher-income, high-fitness customers[5][7].
+  - KP781 has a strong male skew and is favored by higher-income, high-fitness customers.
 
 ---
 
@@ -48,7 +48,7 @@ We uncover customer profiles, product preferences, and actionable business recom
 - **Statistical Summary:** Assessed central tendency and dispersion for all numerical features.
 - **Outlier Detection:** Identified outliers in income and weekly mileage.
 - **Univariate & Bivariate Analysis:** Visualized distributions and relationships by product, gender, marital status, and other features.
-- **Probability Computation:** Calculated marginal and conditional probabilities to inform marketing strategy[5][6][7].
+- **Probability Computation:** Calculated marginal and conditional probabilities to inform marketing strategy.
 
 ---
 
@@ -80,7 +80,7 @@ We uncover customer profiles, product preferences, and actionable business recom
 - **App Integration:**  
   - Offer app-based progress tracking and personalized workout plans.
 - **Customer Profiling:**  
-  - Use demographic insights to personalize recommendations and campaigns[7].
+  - Use demographic insights to personalize recommendations and campaigns.
 
 ---
 
