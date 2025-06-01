@@ -1,4 +1,4 @@
-# 🏃‍♂️ Aerofit Treadmill Customer Analysis: EDA & Probability with Python
+# 🏃‍♂️ Aerofit Treadmill Customer Analysis: EDA & Probability Assessment with Python
 
 This project presents a detailed exploratory data analysis (EDA) and probability assessment of Aerofit’s treadmill customers using Python and pandas.  
 We uncover customer profiles, product preferences, and actionable business recommendations to help Aerofit better target its marketing and sales strategies.
